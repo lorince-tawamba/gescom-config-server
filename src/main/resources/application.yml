@@ -1,0 +1,24 @@
+# =================================
+# SERVICE CONFIGURATION
+# =================================
+spring:
+  application:
+    name: gescom-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lorince-tawamba/gescom-centralize-config.git
+          default-label: main
+          username: lorince-tawamba
+          password: Junior@2019@Ismael
+server:
+  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: "ALWAYS"
