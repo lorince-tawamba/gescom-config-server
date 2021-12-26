@@ -70,12 +70,6 @@ Pousser l’image sur le DokerHub
   docker image push lorincetawamba/gescom-config-server:1.0.0
 ```
 
-**Start the docker container**
-
-```bash
-  docker run -d -p 8080:8585 -t simple-spring-boot-demo-docker:1.0.1
-```
-
 # Authors
 
 * **SATIC SARL / Lorince TAWAMBA** _alias_ [@lorince-tawamba](https://github.com/lorince-tawamba)
