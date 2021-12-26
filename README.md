@@ -57,15 +57,13 @@ You’ll have to do this for both application. After this command executes, you�
   docker container ls
 ``` 
 
-**Pour envoyer l’image sur un serveur (ex : DockerHub)**
-
-### Connectez-vous avec votre identifiant Docker
+**Connectez-vous avec votre identifiant Docker sur DockerHub**
 
 ```bash
   docker login -u lorincetawamba -p votre-mot-de-passe-ici
 ```
 
-### Pousser l’image sur le DokerHub
+**Pousser l’image sur le DokerHub**
 
 ```bash
   docker image push lorincetawamba/gescom-config-server:1.0.0
