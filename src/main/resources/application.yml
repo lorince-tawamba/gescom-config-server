@@ -11,9 +11,9 @@ spring:
           uri: https://github.com/lorince-tawamba/gescom-centralize-config.git
           default-label: main
           username: lorince-tawamba
-          password: Junior@2019@Ismael
-server:
-  port: 8888
+          password: votre-mot-de-passe-ici
+          search-paths: gescom-eureka-discovery-service, gescom-gateway-service, gescom-gestion-client, gescom-gestion-produit, gescom-gestion-commande, gescom-gestion-facture, gescom-gestion-livraison
+
 management:
   endpoints:
     web:
@@ -22,3 +22,5 @@ management:
   endpoint:
     health:
       show-details: "ALWAYS"
+server:
+  port: 8888
