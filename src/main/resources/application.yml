@@ -11,9 +11,12 @@ spring:
           uri: https://github.com/lorince-tawamba/gescom-centralize-config.git
           default-label: main
           username: lorince-tawamba
-          password: votre-mot-de-passe-ici
+          password: Junior@2019@Ismael
           search-paths: gescom-eureka-discovery-service, gescom-gateway-service, gescom-gestion-client, gescom-gestion-produit, gescom-gestion-commande, gescom-gestion-facture, gescom-gestion-livraison
 
+# =======================================
+# Enables Spring Boot Actuator end points
+# =======================================
 management:
   endpoints:
     web:
@@ -22,5 +25,9 @@ management:
   endpoint:
     health:
       show-details: "ALWAYS"
+
+# =======================================
+# Server
+# =======================================
 server:
   port: 8888
